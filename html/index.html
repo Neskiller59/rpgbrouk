@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abrouk - À la recherche de l'Œufbrouk</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+
+   <script defer src="../javascript/data.js"></script>
+<script defer src="../javascript/pendu.js"></script>
+<script defer src="../javascript/spaceShooter.js"></script>
+<script defer src="../javascript/game.js"></script>
+    
+</head>
+<body>
+
+    <main id="game">
+
+        <section id="scene">
+            <img id="background" src="../images/fond/foretbrouk.jpg" alt="Décor">
+
+            <div id="character-container">
+                <img id="character" src="../images/personnages/batbrouk.webp" alt="Batbrouk">
+            </div>
+        </section>
+
+        <section id="dialogue-box">
+
+            <h2 id="character-name">Batbrouk</h2>
+
+            <p id="dialogue-text">
+                Enfin réveillé ? Je commençais à croire que vous comptiez dormir toute la journée.
+            </p>
+
+            <div id="choices">
+                <button onclick="chooseOption(0)">Où suis-je ?</button>
+                <button onclick="chooseOption(1)">Qui êtes-vous ?</button>
+                <button onclick="chooseOption(2)">Je veux retourner en cours.</button>
+            </div>
+
+        </section>
+
+    </main>
+
+</body>
+</html>

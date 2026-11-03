@@ -1,0 +1,99 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #151515;
+    color: white;
+    font-family: Georgia, serif;
+    overflow: hidden;
+}
+
+#game {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#scene {
+    position: relative;
+    flex: 1;
+    overflow: hidden;
+    background: #222;
+}
+
+#background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#character-container {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 85%;
+    display: flex;
+    align-items: flex-end;
+}
+
+#character {
+    height: 100%;
+    max-width: 90vw;
+    object-fit: contain;
+}
+
+#dialogue-box {
+    min-height: 230px;
+    background: #171717;
+    border-top: 3px solid #b18a48;
+    padding: 20px 35px;
+}
+
+#character-name {
+    color: #e6bd70;
+    margin-bottom: 12px;
+    font-size: 24px;
+}
+
+#dialogue-text {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+#choices {
+    display: flex;
+    gap: 12px;
+}
+
+button {
+    flex: 1;
+    padding: 13px;
+    background: #343434;
+    color: white;
+    border: 1px solid #b18a48;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button:hover {
+    background: #74572d;
+}
+
+@media (max-width: 650px) {
+    #choices {
+        flex-direction: column;
+    }
+
+    #dialogue-box {
+        min-height: 290px;
+        padding: 15px;
+    }
+}
