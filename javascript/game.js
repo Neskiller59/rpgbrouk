@@ -110,8 +110,8 @@ function acceptQuestAfterRefusal() {
 // DÉBUT DE L'AVENTURE
 function startAdventure() {
     changeScene(
-        "/images/fond/foretbrouk.jpg",
-        "/images/personnages/gobelinbrouk.webp",
+        "images/fond/foretbrouk.jpg",
+        "images/personnages/gobelinbrouk.webp",
         "Gobelinbrouk"
     );
 
@@ -357,8 +357,8 @@ function finishQuiz() {
 // ÉCHEC TOTAL : BATBROUK ENVOIE LE JOUEUR VERS RICHEBROUK
 function gobelinFailure() {
     changeScene(
-        "/images/fond/foretbrouk.jpg",
-        "/images/personnages/batbrouk.webp",
+        "images/fond/foretbrouk.jpg",
+        "images/personnages/batbrouk.webp",
         "Batbrouk"
     );
 
@@ -378,8 +378,8 @@ function gobelinFailure() {
 // RENCONTRE AVEC RICHEBROUK
 function goToRichebrouk() {
     changeScene(
-        "/images/fond/foretbrouk.jpg",
-        "/images/personnages/richebrouk.webp",
+        "images/fond/foretbrouk.jpg",
+        "images/personnages/richebrouk.webp",
         "Richebrouk"
     );
 
@@ -463,8 +463,8 @@ function refuseRichebroukDeal() {
 // BATBROUK REFUSE D'ACCOMPAGNER LE JOUEUR
 function batbroukDeparture() {
     changeScene(
-        "/images/fond/foretbrouk.jpg",
-        "/images/personnages/batbrouk.webp",
+        "images/fond/foretbrouk.jpg",
+        "images/personnages/batbrouk.webp",
         "Batbrouk"
     );
 
@@ -495,8 +495,8 @@ function batbroukManifestation() {
 // BATBROUK S'EN VA, LE JOUEUR CONTINUE SEUL
 function goToWaterfall() {
     changeScene(
-        "/images/fond/cascadeVin.jpg",
-        "/images/personnages/tortubrouk.webp",
+        "images/fond/cascadeVin.jpg",
+        "images/personnages/tortubrouk.webp",
         "Tortubrouk"
     );
 
@@ -754,8 +754,8 @@ function playerFallsAsleep() {
 // RÉVEIL PAR CIGALEBROUK
 function wakeUpWithCigale() {
     changeScene(
-        "/images/fond/cascadeVin.jpg",
-        "/images/personnages/cigalebrouk.webp",
+        "images/fond/cascadeVin.jpg",
+        "images/personnages/cigalebrouk.webp",
         "Cigalebrouk"
     );
 
@@ -848,8 +848,8 @@ function failureRuinsScene() {
 // ARRIVÉE AUX RUINES
 function enterRuins() {
     changeScene(
-        "/images/fond/ruinebrouk.jpg",
-        "/images/personnages/skelebrouk.webp",
+        "images/fond/ruinebrouk.jpg",
+        "images/personnages/skelebrouk.webp",
         "Skelebrouk"
     );
 
@@ -1018,8 +1018,8 @@ function afterSkeletonVictory() {
 function afterSkeletonDefeat() {
 
     changeScene(
-        "/images/fond/ruinebrouk.jpg",
-        "/images/personnages/batbrouk.webp",
+        "images/fond/ruinebrouk.jpg",
+        "images/personnages/batbrouk.webp",
         "Batbrouk"
     );
 
@@ -1058,8 +1058,8 @@ function recoverEgg() {
 function secretRichebroukBoneTrade() {
 
     changeScene(
-        "/images/fond/ruinebrouk.jpg",
-        "/images/personnages/richebrouk.webp",
+        "images/fond/ruinebrouk.jpg",
+        "images/personnages/richebrouk.webp",
         "Richebrouk"
     );
 
@@ -1090,8 +1090,8 @@ function postSkeletonRichebrouk() {
     }
 
     changeScene(
-        "/images/fond/ruinebrouk.jpg",
-        "/images/personnages/richebrouk.webp",
+        "images/fond/ruinebrouk.jpg",
+        "images/personnages/richebrouk.webp",
         "Richebrouk"
     );
 
@@ -1251,8 +1251,8 @@ function checkEnding() {
 // MAUVAISE FIN
 function badEnding() {
     changeScene(
-        "/images/fond/citybroukdetruit.jpg",
-        "/images/personnages/batbrouk.webp",
+        "images/fond/citybroukdetruit.jpg",
+        "images/personnages/batbrouk.webp",
         "Batbrouk"
     );
 
@@ -1268,8 +1268,8 @@ function badEnding() {
                 text: "Découvrir le sort de Richebrouk",
                 action: () => {
                     changeScene(
-                        "/images/fond/citybroukdetruit.png",
-                        "/images/personnages/richebrouk.webp",
+                        "images/fond/citybroukdetruit.png",
+                        "images/personnages/richebrouk.webp",
                         "Richebrouk"
                     );
 
@@ -1295,8 +1295,8 @@ function badEnding() {
 function richebroukBadEnding() {
 
     changeScene(
-        "/images/fond/citybroukdetruit.jpg",
-        "/images/personnages/richebrouk.webp",
+        "images/fond/citybroukdetruit.jpg",
+        "images/personnages/richebrouk.webp",
         "Richebrouk"
     );
 
@@ -1393,8 +1393,8 @@ function goodEndingChoice() {
 // FIN : DESTRUCTION DE L'ŒUFBROUK
 function destroyEggEnding() {
     changeScene(
-        "/images/fond/citybroukdetruit.jpg",
-        "/images/personnages/batbrouk.webp",
+        "images/fond/citybroukdetruit.jpg",
+        "images/personnages/batbrouk.webp",
         "Batbrouk"
     );
 
@@ -1419,8 +1419,8 @@ function destroyEggEnding() {
 // FIN : RETOUR DE L'ŒUFBROUK EN VILLE
 function bringEggEnding() {
     changeScene(
-        "/images/fond/citybrouk.png",
-        "/images/personnages/oeufbrouk.webp",
+        "images/fond/citybrouk.png",
+        "images/personnages/oeufbrouk.webp",
         "Œufbrouk"
     );
 
@@ -1466,8 +1466,8 @@ function hatchEggEnding() {
 function goldenPhoenixEnding() {
 
     changeScene(
-        "/images/fond/phoenixbroukfond.jpg",
-        "/images/personnages/phoenixbrouk.jpg",
+        "images/fond/phoenixbroukfond.jpg",
+        "images/personnages/phoenixbrouk.jpg",
         "Phénix d'or"
     );
 
@@ -1490,8 +1490,8 @@ function goldenPhoenixEnding() {
 function finalSecretEnding() {
 
     changeScene(
-        "/images/fond/phoenixbroukfond.jpg",
-        "/images/personnages/phoenixbrouk.jpg",
+        "images/fond/phoenixbroukfond.jpg",
+        "images/personnages/phoenixbrouk.jpg",
         "Phénix d'or"
     );
 
